@@ -1,0 +1,31 @@
+{
+  "name": "emotion-rgba",
+  "version": "0.0.3",
+  "description": "Sass style rgba function for emotion",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose"
+  },
+  "keywords": ["Emotion", "CSS", "RGBA"],
+  "author": "Baker",
+  "license": "MIT",
+  "dependencies": {
+    "hex-rgb": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/runtime": "^7.5.5",
+    "@types/jest": "^24.0.13",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
+    "typescript": "^3.5.1"
+  }
+}
