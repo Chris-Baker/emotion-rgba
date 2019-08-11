@@ -1,8 +1,8 @@
 ---
 name: Enhancement
-about: Create a report to help us improve
+about: Suggest an improvement to us
 title: ''
-labels: Enhancement
+labels: enhancement
 assignees: ''
 
 ---
