@@ -1,12 +1,12 @@
 {
   "name": "emotion-rgba",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Sass style rgba function for emotion css",
   "repository": {
     "type": "git",
     "url": "https://github.com/Chris-Baker/Emotion-RGBA.git"
   },
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose"
@@ -16,7 +16,8 @@
     "CSS",
     "RGBA"
   ],
-  "author": "Baker",
+  "files": ["dist/"],
+  "author": "Chris Baker",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
