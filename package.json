@@ -11,12 +11,14 @@
     "build": "tsc",
     "test": "jest --verbose"
   },
-  "keywords": ["Emotion", "CSS", "RGBA"],
+  "keywords": [
+    "Emotion",
+    "CSS",
+    "RGBA"
+  ],
   "author": "Baker",
   "license": "MIT",
-  "dependencies": {
-    "hex-rgb": "^4.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-transform-runtime": "^7.4.3",
