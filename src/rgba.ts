@@ -57,17 +57,7 @@ function hexRgb (hex: string): RGB {
 export function rgba(color: string, alpha: number): string {
     // 1. match the color to either and known color string or a hex value
     // look at first character to see if it is a #. If not then we need to look up the hex value
-    color = color.trim().toLowerCase();
-    let hexColor: string | undefined;
-    if (color[0] === '#') {
-        hexColor = color;
-    } else {
-        // see if we can find a color mapping from the provided string to color to a valid hex color
-        const colorMapping = colors.find((colorMapping) => colorMapping.name === color);
-        if (colorMapping) {
-            hexColor = colorMapping.value;
-        }
-    }
+    const hexColor = color[0] === '#' ? color : colors[color.toLowerCase()];
     if (!hexColor) {
         throw new Error(
             `Invalid color '${color}'. Color should be a valid hexadecimal value '#FFFFFF' or a valid color string, for example 'white'`
