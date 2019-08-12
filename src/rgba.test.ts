@@ -9,6 +9,13 @@ describe('RGBA', () => {
         expect(converted).toBe('rgba(255, 255, 255, 1)');
     });
 
+    test('should convert shorthand hex and opacity to rgba', () => {
+        const color = '#FFF';
+        const opacity = 1;
+        const converted = rgba(color, opacity);
+        expect(converted).toBe('rgba(255, 255, 255, 1)');
+    });
+
     test('should convert named color and opacity to rgba', () => {
         const color = 'black';
         const opacity = 1;
