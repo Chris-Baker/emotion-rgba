@@ -1,4 +1,5 @@
 # Emotion RGBA
+[![License][license-image]][license-url] ![coverage-badge-green]
 
 [Emotion] does not currently support the Sass rgba function syntax of `rgba($color, $alpha)` out of the box.
 
@@ -33,3 +34,6 @@ const StyledComponent = styled.div`
 ```
 
 [Emotion]: https://github.com/emotion-js/emotion
+[coverage-badge-green]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
+[license-url]: https://opensource.org/licenses/MIT
+[license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
