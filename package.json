@@ -35,6 +35,6 @@
     "jest": "^24.8.0",
     "prettier": "^1.15.3",
     "pretty-quick": "^1.8.0",
-    "typescript": "^3.5.1"
+    "typescript": "^3.6.2"
   }
 }
