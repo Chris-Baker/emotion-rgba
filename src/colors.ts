@@ -463,6 +463,7 @@ export const colors = {
     'purple 4': '#551A8B',
     raspberry: '#872657',
     rawsienna: '#C76114',
+    rebeccapurple: '#663399',
     red: '#FF0000',
     'red 1': '#FF0000',
     'red 2': '#EE0000',
