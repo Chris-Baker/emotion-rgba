@@ -1,6 +1,6 @@
 {
   "name": "emotion-rgba",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Sass style rgba function for emotion css",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "prepack": "npm ci && npm run build && npm run test"
+    "prepack": "npm ci && npm run build && npm run test",
+    "publish": "npm publish"
   },
   "keywords": [
     "Emotion",
